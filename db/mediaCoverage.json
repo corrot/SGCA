@@ -1,0 +1,13 @@
+[{
+        "id": 13,
+        "videoId": "C0DPdy98e4c"
+    },
+    {
+        "id": 0,
+        "url": "images/sample.jpg",
+        "link": "#/link/to/content",
+        "desc": { "EN": "publication #1", "GE": "პუბლიკაცია #1" },
+        "title": { "EN": "Short or long title", "GE": "გრძელი ან მოკლე სათაური" },
+        "date": ""
+    }
+]

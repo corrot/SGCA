@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Support to the Georgian Competition Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="styles/lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/lib/ng-image-gallery.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Old+Standard+TT|Oxygen|Roboto|Droid+Serif" rel="stylesheet">
+    <link href="styles/lib/slick.css" rel="stylesheet" />
+    <link href="styles/lib/slick-theme.css" rel="stylesheet" />
+    <link href="styles/app/loader.css" rel="stylesheet" />
+    <link href="styles/app/main.css" rel="stylesheet" />
+</head>
+
+<body ng-app="app" ng-controller="myCtrl" data-spy="scroll" data-target=".navbar" data-offset="190" ng-cloak>
+    <div class="loader-wrapper">
+        <!-- <h2>Support to the Georgian Competition Agency</h2> -->
+        <div class="loader">
+            loading...
+        </div>
+    </div>
+    <div class="page-content">
+        <div id="section1" class="container-fluid heading-container">
+            <div class="container top">
+                <img class="eu-logo" src="images/main-logo.png" alt="logo" />
+            </div>
+        </div>
+        <nav class="navbar navbar-default" data-spy="affix" data-offset="136">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-right-wrapper">
+                        <div class="navbar-right col-xs-9 visible-xs">
+                            <div class="langs" ng-init="activeLang=flags[0]" ng-click="changeLanguage(activeLang)">
+                                <span ng-bind="activeLang.url"></span>
+                                <span><img class="flagImage" ng-src="{{activeLang.image}}"></span>
+                            </div>
+                        </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    </div>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse relative" id="myNavbar" style="padding: 0">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#home" target="_self"><span class="glyphicon glyphicon-home"></span></a></li>
+                            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span ng-bind="lang['AboutUs']"></span> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#about-us" target="_self"><span ng-bind="lang['AboutProject']"></span></a></li>
+                                <li><a href="#our-team" target="_self"><span ng-bind="lang['OurTeam']"></span></a></li>
+                            </ul>
+                        </li> -->
+                            <li class=""><a href="#about-us" target="_self"><span ng-bind="lang['AboutProject']"></span></a></li>
+                            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span ng-bind="lang['News']"></span> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#news" target="_self"><span ng-bind="lang['Newsletter']"></span></a></li>
+                                    <li><a href="#newsletter" target="_self"><span ng-bind="lang['Multimedia']"></span></a></li>
+                                </ul>
+                            </li> -->
+                            <li class=""><a href="#multimedia" target="_self"><span ng-bind="lang['Multimedia']"></span></a></li>
+                            <li class=""><a href="#publication" target="_self"><span ng-bind="lang['Publication']"></span></a></li>
+                            <li class=""><a href="#contact" target="_self"><span ng-bind="lang['Contact']"></span></a></li>
+
+                            <div class="input-group input-gutter-right visible-xs" ng-controller="SearchController">
+                                <input type="text" class="form-control" style="width: calc( 100% - 40px )" results="5" placeholder="Search for..." ng-model="searchQuery">
+                                <span class="input-group-btn">
+                                    <button  ng-class="{'disabled' : !searchQuery}" ng-click="search()" my-enter="search()" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </ul>
+                        <div class="navbar-right col-xs-4 hidden-xs">
+                            <div class="nav-right-wrapper">
+                                <button data-toggle="modal" data-target="#modal-search" id="search" class="glyphicon glyphicon-search"></button>
+                                <div class="langs" ng-init="activeLang=flags[0]" ng-click="changeLanguage(activeLang)">
+                                    <span ng-bind="activeLang.url"></span>
+                                    <span><img class="flagImage" ng-src="{{activeLang.image}}"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="body-content" id="content">
+            <div ng-view></div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-search" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <span class="form-wrapper">
+                    <div action="" method="get" ng-controller="SearchController">
+                        <button id="btn-search" value="" ng-class="{'disabled' : !searchQuery}" ng-click="search()" my-enter="search()"></button>
+                           <input type="search" id="search-input" placeholder="Search" placeholder="Search for..." ng-model="searchQuery">
+                        <button type="close" data-dismiss="modal" aria-label="Close" name="btn-close"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row footer-row">
+                    <div class="col-sm-4">
+                        <div class="footer-image-content">
+                            <img src="images/logo-delegations.jpg" alt="EU_logo" height="40">
+                            <div>
+                                <span ng-bind="lang['eustr1']"></span><br><span ng-bind="lang['eustr2']"></span>
+                            </div>
+                        </div>
+                        <p ng-bind="lang['eubigstr']">The contents of this website are the sole responsibility of B&amp;S Europe and its consortium partners and can in no way be taken to reflect the views of the European Union.</p>
+                    </div>
+                    <div class="col-sm-4" style="text-align: center;">
+                        <p ng-bind="lang['Contact']"></p>
+                        <p ng-bind="lang['addressLine'][0]"></p>
+                        <p ng-bind="lang['addressLine'][1]"></p>
+                        <p ng-bind="lang['addressLine'][2]"></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-image-content right">
+                            <img src="images/bs_logo.png" alt="B&S_logo" height="40">
+                            <div>
+                                <span ng-bind="lang['cprght1']"></span><br><span ng-bind="lang['cprght2']"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="toTop"><span class="glyphicon glyphicon-menu-up"></span></div>
+    </div>
+    <script src="scripts/lib/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="scripts/lib/angular.min.js"></script>
+    <script src="scripts/lib/angular-route.js"></script>
+    <script src="scripts/lib/angular-animate.min.js"></script>
+    <script src="scripts/lib/angular-sanitize.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+    <script src="https://rawgit.com/hammerjs/hammer.js/v2.0.8/hammer.min.js"></script>
+    <script src="scripts/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/slick.js"></script>
+    <script type="text/javascript" src="scripts/lib/angular-slick-directive.js"></script>
+    <script src="scripts/lib/ng-image-gallery.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="scripts/lib/angular-youtube-embed.min.js"></script>
+
+    <!-- Modules -->
+    <script src="scripts/app/main.js"></script>
+
+    <!-- Controllers -->
+    <script src="scripts/controllers/HomeController.js"></script>
+    <script src="scripts/controllers/NewsController.js"></script>
+    <script src="scripts/controllers/SearchController.js"></script>
+    <script src="scripts/controllers/SearchGetController.js"></script>
+    <script src="scripts/controllers/SliderDataController.js"></script>
+
+    <!-- Services -->
+    <script src="scripts/services/news.js"></script>
+    <script src="scripts/services/search.js"></script>
+    <script src="scripts/services/sliderData.js"></script>
+    <script src="scripts/services/mediaCoverage.js"></script>
+</body>
+
+</html>
