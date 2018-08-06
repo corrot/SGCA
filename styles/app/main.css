@@ -71,9 +71,8 @@ body {
 }
 
 .navbar-default {
-    background-color: #0c3d18;
-    /* background-color: #092246; */
-    border-color: #0b3315;
+    background-color: #092246;
+    border-color: #072043;
     border-radius: 0;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
 }
@@ -202,12 +201,12 @@ h1 {
 
 /* initial */
 
-.eu-logo {
-    float: left;
-    margin-right: 30px;
-    /* border: solid 3px #ddd;*/
+.logo-top {
     width: 100%;
-    max-width: 400px;
+}
+.logo-top.right {
+    float: right;
+    max-width: 100px;
 }
 
 .eu-text {
@@ -226,14 +225,12 @@ h1 {
 
 .heading-container {
     color: #092246;
-    color: #0c3d18;
     background: #fff;
     padding: 0
 }
 
 .body-content {
     color: #092246;
-    color: #0c3d18;
 }
 
 .section>.container {
@@ -244,7 +241,6 @@ h1 {
 .footer {
     color: #a8a8a8!important;
     background: #092246!important;
-    background: #0c3d18!important;
     font-size: 12px;
 }
 
@@ -274,7 +270,6 @@ h1 {
     width: 100vw;
     height: calc(100vh - 174px);
     background: #092246;
-    background: #0c3d18;
     overflow: hidden;
 }
 
@@ -355,7 +350,6 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: #092246;
-    background-color: #0c3d18;
 }
 
 .card-title {
@@ -386,7 +380,6 @@ h1 {
 
 .card-image-overlay {
     background: #092246;
-    background: #0c3d18;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -720,9 +713,8 @@ input::-ms-clear {
         width: 90px;
         top: 13px;
     }
-    .eu-logo {
-        float: none;
-        margin-right: 0;
+    .logo-top {
+        width: 100%;
     }
     .eu-text {
         text-align: center;
