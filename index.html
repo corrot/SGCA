@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <title>Website title</title>
+    <title>International Competition Conference</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="styles/lib/bootstrap.min.css" rel="stylesheet" />
@@ -30,10 +30,17 @@
                 <div class="col-xs-2">
                     <img class="logo-top" src="images/EU-logo.jpg" alt="logo" />
                 </div>
-                <strong class="col-xs-8 text-strong">
-                    <center class="text-danger hidden-xs"><h2>Competition Policy: Trends and Challenges</h2></center>
-                    <center class="text-danger hidden-xs"><h3>The Second International Competition Conference</h3></center>
-                </strong>
+                <div class="col-xs-8">
+                    <center class="hidden-xs" style="color: #003399;">
+                        <h4 class="header-geo">
+                            <div>მეორე საერთაშორისო კონფერენცია</div> <strong>“კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“</strong>
+                        </h4>
+                    <br>
+                        <h4>
+                            <div>The Second International Competition Conference</div> <strong>“Competition Policy: Trends and Challenges“</strong>
+                        </h4>
+                    </center>
+                </div>
                 <div class="col-xs-2">
                     <img class="logo-top right" src="images/Logo-GCA 1.jpg" alt="logo" />
                 </div>
@@ -46,7 +53,7 @@
                         <div class="navbar-right col-xs-9 visible-xs">
                             <div class="langs" ng-init="activeLang=flags[0]" ng-click="changeLanguage(activeLang)">
                                 <span ng-bind="activeLang.url"></span>
-                                <span><img class="flagImage" ng-src="{{activeLang.image}}"></span>
+                                <!-- <span><img class="flagImage" ng-src="{{activeLang.image}}"></span> -->
                             </div>
                         </div>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -89,7 +96,7 @@
                                 <button data-toggle="modal" data-target="#modal-search" id="search" class="glyphicon glyphicon-search"></button>
                                 <div class="langs" ng-init="activeLang=flags[0]" ng-click="changeLanguage(activeLang)">
                                     <span ng-bind="activeLang.url"></span>
-                                    <span><img class="flagImage" ng-src="{{activeLang.image}}"></span>
+                                    <!-- <span><img class="flagImage" ng-src="{{activeLang.image}}"></span> -->
                                 </div>
                             </div>
                         </div>

@@ -12,6 +12,12 @@
     outline: none!important;
 }
 
+@font-face {
+    font-family: caps;
+    src: url(../../fonts/BPG_Arial_Caps.ttf);
+}
+
+
 .page-content {
     display: none;
     transform-origin: 0 0;
@@ -178,7 +184,6 @@ h6 {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-weight: bold
@@ -198,6 +203,9 @@ h1 {
     text-align: center;
 }
 
+.header-geo, .header-geo>div{
+    font-family: caps!important;
+}
 
 /* initial */
 

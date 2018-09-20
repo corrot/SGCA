@@ -29,18 +29,8 @@
         }
     },
     {
-        "id": 2,
+        "id": 3,
         "image": "images/for_news/4.jpg",
-        "date": "Month DD, YYYY",
-        "title": { "EN": "Title", "GE": "სათაური" },
-        "article": {
-            "EN": "Description data",
-            "GE": "მოკლე დახასიათება"
-        }
-    },
-    {
-        "id": 2,
-        "image": "images/for_news/5.jpg",
         "date": "Month DD, YYYY",
         "title": { "EN": "Title", "GE": "სათაური" },
         "article": {

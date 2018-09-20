@@ -1,7 +1,7 @@
 var langs = {
     EN: {
-        'ProjectTitle': 'About Us',
-        'AboutUs': 'About Us',
+        'ProjectTitle': 'About the Conference',
+        'AboutUs': 'About the Conference',
         'AboutProject': 'About',
         'News': 'News',
         'Newsletter': 'News',
@@ -22,7 +22,7 @@ var langs = {
         'eustr2': 'by the European Union',
         'eubigstr': 'This website has been produced with the assistance of the European Union.  Its contents are the sole responsibility of B&S Europe and do not necessarily reflect the views of the European Union.',
         'euForGeo': 'The European Union for Georgia',
-        'addressLine': ['David Agmashenebeli Ave 154,', 'Tbilisi City 0112, Georgia'],
+        'addressLine': ['Chavchavadze Avenue No 1, TSU Building I', 'Tbilisi, Georgia'],
         'address': 'Address',
         'email': 'Email',
         'phone': 'Phone',
@@ -32,12 +32,13 @@ var langs = {
         'ReadMore': 'Read more...',
         'LoadMore': 'Load More ',
         'Publication': 'Publication',
-        'ExternalLinks': 'External Links'
+        'ExternalLinks': 'External Links',
+        'DownloadAgenda': ' Download Agenda'
     },
     GE: {
-        'ProjectTitle': 'ჩვენს შესახებ',
-        'AboutUs': 'ჩვენს შესახებ',
-        'AboutProject': 'პროექტის შესახებ',
+        'ProjectTitle': 'კონფერენციის შესახებ',
+        'AboutUs': 'კონფერენციის შესახებ',
+        'AboutProject': 'კონფერენციის შესახებ',
         'News': 'სიახლეები',
         'Newsletter': 'სიახლეები',
         'Multimedia': 'მულტიმედია',
@@ -57,7 +58,7 @@ var langs = {
         'eustr2': 'ევროკავშირი',
         'eubigstr': 'ეს ვებსაიტი შექმნილია ევროკავშირის მხარდაჭერით. მის შინაარსზე სრულად პასუხისმგებელია B&S Europe და არ ნიშნავს, რომ იგი ასახავს ევროკავშირის შეხედულებებს.',
         'euForGeo': 'ევროკავშირი საქართველოსთვის',
-        'addressLine': ['დავით აღმაშენებლის გამზირი 154,', 'თბილისი 0112,', 'საქართველო'],
+        'addressLine': ['ქ. თბილისი, ი. ჭავჭავაძის გამზირი №1,', 'თსუ, I კორპუსი,'],
         'address': 'მისამართი',
         'email': 'ელ-ფოსტა',
         'phone': 'ტელ.',
@@ -67,7 +68,8 @@ var langs = {
         'ReadMore': 'მეტის ნახვა...',
         'LoadMore': 'მეტის ჩვენება ',
         'Publication': 'პუბლიკაცია',
-        'ExternalLinks': 'სხვა ბმულები '
+        'ExternalLinks': 'სხვა ბმულები',
+        'DownloadAgenda': ' გადმოტვირთე დღის წესრიგი'
     }
 }
 
@@ -219,7 +221,7 @@ app.controller('myCtrl', [
             $scope.methods.open();
         };
 
-        $scope.flags = [{ id: 0, url: 'EN', title: 'EN', image: 'images/en.png' }, { id: 1, url: 'GE', title: 'GE', image: 'images/ge.png' }]
+        $scope.flags = [{ id: 0, url: 'ENG', title: 'EN', image: 'images/en.png' }, { id: 1, url: 'GEO', title: 'GE', image: 'images/ge.png' }]
         $scope.lang = langs['EN'];
         $scope.activeLang = $scope.flags[0];
         $scope.changeLanguage = function(o) {
