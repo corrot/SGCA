@@ -33,7 +33,8 @@ var langs = {
         'LoadMore': 'Load More ',
         'Publication': 'Publication',
         'ExternalLinks': 'External Links',
-        'DownloadAgenda': ' Download Agenda'
+        'DownloadAgenda': ' Download Agenda',
+        'agenda_link': 'db/Draft_GEO.docx'
     },
     GE: {
         'ProjectTitle': 'კონფერენციის შესახებ',
@@ -69,106 +70,107 @@ var langs = {
         'LoadMore': 'მეტის ჩვენება ',
         'Publication': 'პუბლიკაცია',
         'ExternalLinks': 'სხვა ბმულები',
-        'DownloadAgenda': ' გადმოტვირთე დღის წესრიგი'
+        'DownloadAgenda': ' გადმოტვირთე დღის წესრიგი',
+        'agenda_link': 'db/Draft_GEO.docx'
     }
 }
 
 var team = [{
-        id: 0,
-        image: 'images/people.png',
-        description: { 'EN': 'speaker #1', 'GE': 'speaker #1' },
-        title: { 'EN': 'image #1', 'GE': 'ფოტო #1' }
-    },
-    {
-        id: 1,
-        image: 'images/people.png',
-        description: { 'EN': 'speaker #2', 'GE': 'speaker #2' },
-        title: { 'EN': 'image #2', 'GE': 'ფოტო #2' }
-    },
-    {
-        id: 2,
-        image: 'images/people.png',
-        description: { 'EN': 'speaker #3', 'GE': 'speaker #3' },
-        title: { 'EN': 'image #3', 'GE': 'ფოტო #3' }
-    },
-    {
-        id: 3,
-        image: 'images/people.png',
-        description: { 'EN': 'speaker #4', 'GE': 'speaker #4' },
-        title: { 'EN': 'image #4', 'GE': 'ფოტო #4' }
-    }
+    id: 0,
+    image: 'images/people.png',
+    description: { 'EN': 'speaker #1', 'GE': 'speaker #1' },
+    title: { 'EN': 'image #1', 'GE': 'ფოტო #1' }
+},
+{
+    id: 1,
+    image: 'images/people.png',
+    description: { 'EN': 'speaker #2', 'GE': 'speaker #2' },
+    title: { 'EN': 'image #2', 'GE': 'ფოტო #2' }
+},
+{
+    id: 2,
+    image: 'images/people.png',
+    description: { 'EN': 'speaker #3', 'GE': 'speaker #3' },
+    title: { 'EN': 'image #3', 'GE': 'ფოტო #3' }
+},
+{
+    id: 3,
+    image: 'images/people.png',
+    description: { 'EN': 'speaker #4', 'GE': 'speaker #4' },
+    title: { 'EN': 'image #4', 'GE': 'ფოტო #4' }
+}
 ]
 
 var externalLinks = [{
-        id: 0,
-        link: 'https://eeas.europa.eu/delegations/georgia_en',
-        title: { 'EN': 'Delegation of the European Union to Georgia', 'GE': 'ევროკავშირის წარმომადგენლობა საქართველოში' },
-        facebook: 'https://www.facebook.com/EuropeanUnioninGeorgia',
-        twitter: 'https://twitter.com/EUinGeorgia'
-    },
-    {
-        id: 1,
-        link: 'http://www.dcfta.gov.ge/en/home',
-        title: { 'EN': 'Deep and Comprehensive Free Trade Area', 'GE': 'ღრმა და ყოვლისმომცველი თავისუფალი სავაჭრო სივრცის შესახებ შეთანხმება' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 2,
-        link: 'https://eeas.europa.eu/topics/european-neighbourhood-policy-enp_en',
-        title: { 'EN': 'European Union External Action', 'GE': 'ევროკავშირის საგარეო ქმედებათა სამსახური' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 3,
-        link: 'http://competition.ge/ge/',
-        title: { 'EN': 'Competition Agency of Georgia', 'GE': 'საქართველოს კონკურენციის სააგენტო' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 4,
-        link: 'http://www.bseurope.com/',
-        title: { 'EN': 'B&S Europe', 'GE': 'B&S Europe' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 5,
-        link: 'https://kt.gov.lt/en/',
-        title: { 'EN': 'Competition Council of Republic of Lithuania', 'GE': 'ლიტვის რესპუბლიკის კონკურენციის საბჭო' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 6,
-        link: 'http://ec.europa.eu/competition/',
-        title: { 'EN': 'European Commission', 'GE': 'ევროკომისია' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 7,
-        link: 'http://www.oecd.org/',
-        title: { 'EN': 'OECD', 'GE': 'ეკონომიკური თანამშრომლობის და განვითრაების ორგანიზაცია' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 8,
-        link: 'http://unctad.org/en/Pages/Home.aspx ',
-        title: { 'EN': 'UNCTAD', 'GE': 'გაეროს ვაჭრობისა და განვითარების კონფერენცია' },
-        facebook: '',
-        twitter: ''
-    },
-    {
-        id: 9,
-        link: 'http://www.internationalcompetitionnetwork.org/ ',
-        title: { 'EN': 'International Competition Network', 'GE': 'საერთაშორისო კონკურენციის ქსელი' },
-        facebook: '',
-        twitter: ''
-    }
+    id: 0,
+    link: 'https://eeas.europa.eu/delegations/georgia_en',
+    title: { 'EN': 'Delegation of the European Union to Georgia', 'GE': 'ევროკავშირის წარმომადგენლობა საქართველოში' },
+    facebook: 'https://www.facebook.com/EuropeanUnioninGeorgia',
+    twitter: 'https://twitter.com/EUinGeorgia'
+},
+{
+    id: 1,
+    link: 'http://www.dcfta.gov.ge/en/home',
+    title: { 'EN': 'Deep and Comprehensive Free Trade Area', 'GE': 'ღრმა და ყოვლისმომცველი თავისუფალი სავაჭრო სივრცის შესახებ შეთანხმება' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 2,
+    link: 'https://eeas.europa.eu/topics/european-neighbourhood-policy-enp_en',
+    title: { 'EN': 'European Union External Action', 'GE': 'ევროკავშირის საგარეო ქმედებათა სამსახური' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 3,
+    link: 'http://competition.ge/ge/',
+    title: { 'EN': 'Competition Agency of Georgia', 'GE': 'საქართველოს კონკურენციის სააგენტო' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 4,
+    link: 'http://www.bseurope.com/',
+    title: { 'EN': 'B&S Europe', 'GE': 'B&S Europe' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 5,
+    link: 'https://kt.gov.lt/en/',
+    title: { 'EN': 'Competition Council of Republic of Lithuania', 'GE': 'ლიტვის რესპუბლიკის კონკურენციის საბჭო' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 6,
+    link: 'http://ec.europa.eu/competition/',
+    title: { 'EN': 'European Commission', 'GE': 'ევროკომისია' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 7,
+    link: 'http://www.oecd.org/',
+    title: { 'EN': 'OECD', 'GE': 'ეკონომიკური თანამშრომლობის და განვითრაების ორგანიზაცია' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 8,
+    link: 'http://unctad.org/en/Pages/Home.aspx ',
+    title: { 'EN': 'UNCTAD', 'GE': 'გაეროს ვაჭრობისა და განვითარების კონფერენცია' },
+    facebook: '',
+    twitter: ''
+},
+{
+    id: 9,
+    link: 'http://www.internationalcompetitionnetwork.org/ ',
+    title: { 'EN': 'International Competition Network', 'GE': 'საერთაშორისო კონკურენციის ქსელი' },
+    facebook: '',
+    twitter: ''
+}
 ]
 
 var mainDescription = {
@@ -178,11 +180,11 @@ var mainDescription = {
 }
 
 var app = angular.module('app', ['thatisuday.ng-image-gallery', 'ngRoute', 'ngSanitize', 'slick', 'youtube-embed']);
-app.directive('myEnter', function() {
-    return function(scope, element, attrs) {
-        element.bind("keydown keypress", function(event) {
+app.directive('myEnter', function () {
+    return function (scope, element, attrs) {
+        element.bind("keydown keypress", function (event) {
             if (event.which === 13) {
-                scope.$apply(function() {
+                scope.$apply(function () {
                     scope.$eval(attrs.myEnter);
                 });
 
@@ -193,7 +195,7 @@ app.directive('myEnter', function() {
 });
 app.controller('myCtrl', [
     '$scope',
-    function($scope, $timeout, $interval) {
+    function ($scope, $timeout, $interval) {
         $scope.langs = langs;
         $scope.team = team;
         $scope.publicationLimit = 3;
@@ -209,7 +211,7 @@ app.controller('myCtrl', [
 
         $scope.mainDescription = mainDescription;
 
-        $scope.loadPublications = function() {
+        $scope.loadPublications = function () {
             $scope.publicationLimit += 3;
         }
 
@@ -217,20 +219,20 @@ app.controller('myCtrl', [
             imgAnim: 'fadeup'
         };
         $scope.methods = {};
-        $scope.openGallery = function() {
+        $scope.openGallery = function () {
             $scope.methods.open();
         };
 
         $scope.flags = [{ id: 0, url: 'ENG', title: 'EN', image: 'images/en.png' }, { id: 1, url: 'GEO', title: 'GE', image: 'images/ge.png' }]
         $scope.lang = langs['EN'];
         $scope.activeLang = $scope.flags[0];
-        $scope.changeLanguage = function(o) {
+        $scope.changeLanguage = function (o) {
             o == $scope.flags[0] ? $scope.activeLang = $scope.flags[1] : $scope.activeLang = $scope.flags[0];
             $scope.lang = langs[$scope.activeLang.title];
         }
     }
 ]);
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             controller: 'HomeController',
@@ -249,7 +251,7 @@ app.config(function($routeProvider) {
         });
 });
 
-$('#nav').on('affix.bs.affix', function() {
+$('#nav').on('affix.bs.affix', function () {
     if (!$(window).scrollTop()) return false;
 });
 
@@ -257,7 +259,7 @@ $('#nav').on('affix.bs.affix', function() {
 // scroll to top
 if ($('.toTop').length) {
     var scrollTrigger = 100, // px
-        backToTop = function() {
+        backToTop = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
                 $('.toTop').addClass('show');
@@ -266,10 +268,10 @@ if ($('.toTop').length) {
             }
         };
     backToTop();
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         backToTop();
     });
-    $('.toTop').on('click', function(e) {
+    $('.toTop').on('click', function (e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
@@ -282,11 +284,11 @@ if ($('.toTop').length) {
 // ----------- smooth dropdown --------- //
 // ------------------------------------- //
 
-$('.dropdown').on('show.bs.dropdown', function() {
+$('.dropdown').on('show.bs.dropdown', function () {
     $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
 });
 
-$('.dropdown').on('hide.bs.dropdown', function() {
+$('.dropdown').on('hide.bs.dropdown', function () {
     $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
 });
 
@@ -294,7 +296,7 @@ $('.dropdown').on('hide.bs.dropdown', function() {
 // ------- smooth scroll on click ------ //
 // ------------------------------------- //
 
-$('.dropdown-menu a').click(function(e) {
+$('.dropdown-menu a').click(function (e) {
     e.stopPropagation();
     $('html, body').animate({
         scrollTop: $($(this).attr('href')).offset().top
@@ -303,7 +305,7 @@ $('.dropdown-menu a').click(function(e) {
 });
 
 // -------------autofocus-on-search-------------
-$('#modal-search').on('shown.bs.modal', function() {
+$('#modal-search').on('shown.bs.modal', function () {
     $("#search-input").focus();
 });
 
@@ -317,8 +319,8 @@ function sliderInit() {
     });
 };
 
-$(document).ready(function() {
-    setTimeout(function() {
+$(document).ready(function () {
+    setTimeout(function () {
         $('.loader-wrapper').hide('slow');
         $('.page-content').show();
         sliderInit();

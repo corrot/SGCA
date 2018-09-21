@@ -1,8 +1,12 @@
-[{
+[
+    {
         "id": 0,
         "image": "images/for_news/1.jpg",
         "date": "Month DD, YYYY",
-        "title": { "EN": "Title", "GE": "სათაური" },
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
         "article": {
             "EN": "Description data",
             "GE": "მოკლე დახასიათება"
@@ -12,7 +16,10 @@
         "id": 1,
         "image": "images/for_news/2.jpg",
         "date": "Month DD, YYYY",
-        "title": { "EN": "Title", "GE": "სათაური" },
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
         "article": {
             "EN": "Description data",
             "GE": "მოკლე დახასიათება"
@@ -22,7 +29,10 @@
         "id": 2,
         "image": "images/for_news/3.jpg",
         "date": "Month DD, YYYY",
-        "title": { "EN": "Title", "GE": "სათაური" },
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
         "article": {
             "EN": "Description data",
             "GE": "მოკლე დახასიათება"
@@ -32,7 +42,36 @@
         "id": 3,
         "image": "images/for_news/4.jpg",
         "date": "Month DD, YYYY",
-        "title": { "EN": "Title", "GE": "სათაური" },
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
+        "article": {
+            "EN": "Description data",
+            "GE": "მოკლე დახასიათება"
+        }
+    },
+    {
+        "id": 4,
+        "image": "images/for_news/5.jpg",
+        "date": "Month DD, YYYY",
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
+        "article": {
+            "EN": "Description data",
+            "GE": "მოკლე დახასიათება"
+        }
+    },
+    {
+        "id": 5,
+        "image": "images/for_news/6.jpg",
+        "date": "Month DD, YYYY",
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
         "article": {
             "EN": "Description data",
             "GE": "მოკლე დახასიათება"

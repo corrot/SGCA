@@ -12,7 +12,12 @@
 </div>
 <div class="container">
     <center style="padding: 40px;">
-        <a href="#" target="_self" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-save"></span> 
-            <span ng-bind="lang['DownloadAgenda']"></span></span></a>
+        <a ng-show="activeLang.title=='EN'" href="db/Draft_ENG.docx" target="_self" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-save"></span>
+            <span ng-bind="lang['DownloadAgenda']"></span>
+        </a><a ng-show="activeLang.title=='GE'" href="db/Draft_GEO.docx" target="_self" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-save"></span>
+            <span ng-bind="lang['DownloadAgenda']"></span>
+        </a>
     </center>
 </div>
