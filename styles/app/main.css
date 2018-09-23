@@ -209,14 +209,19 @@ h1 {
 
 /* initial */
 
-.logo-top {
+/* .logo-top {
     width: 100%;
 }
 .logo-top.right {
     float: right;
     max-width: 100px;
-}
+} */
 
+.logo-top {
+    width: 100%;
+    max-height: 116px;
+    max-width: 140px;
+}
 .eu-text {
     line-height: 116px;
     padding: 0;
@@ -253,18 +258,20 @@ h1 {
 }
 
 .footer-image-content {
-    display: -webkit-box;
-    margin-bottom: 10px;
+    /* display: -webkit-box; */
+    position: relative;
+    top:50%;
+    text-align: center;
 }
 
 .footer-image-content>img {
     margin-right: 10px;
 }
-
+/* 
 .footer-image-content.right {
     float: right;
     margin-right: 40px;
-}
+} */
 
 .footer-row {
     padding: 20px;
@@ -720,9 +727,6 @@ input::-ms-clear {
     .navbar-right {
         width: 90px;
         top: 13px;
-    }
-    .logo-top {
-        width: 100%;
     }
     .eu-text {
         text-align: center;
