@@ -76,5 +76,18 @@
             "EN": "Description data",
             "GE": "მოკლე დახასიათება"
         }
+    },
+    {
+        "id": 6,
+        "image": "images/for_news/7.jpg",
+        "date": "Month DD, YYYY",
+        "title": {
+            "EN": "Title",
+            "GE": "სათაური"
+        },
+        "article": {
+            "EN": "Description data",
+            "GE": "მოკლე დახასიათება"
+        }
     }
 ]
