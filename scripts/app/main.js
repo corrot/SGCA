@@ -212,7 +212,7 @@ app.controller('myCtrl', [
         $scope.mainDescription = mainDescription;
 
         $scope.loadPublications = function () {
-            $scope.publicationLimit += 3;
+            $scope.publicationLimit += 4;
         }
 
         $scope.conf = {
