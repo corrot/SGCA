@@ -11,6 +11,7 @@
 *.sass-cache
 node_modules/
 .tmp/
+db/publications
 
 # OS or Editor folders
 .DS_Store
