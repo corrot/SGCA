@@ -340,6 +340,7 @@ h1 {
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
     cursor: pointer;
     transition: .3s ease all;
+    overflow: hidden;
 }
 
 .card-contents {
@@ -367,12 +368,22 @@ h1 {
     background-color: #092246;
 }
 
+.card-image.pub{
+    background-size: 40%;
+}
+
 .card-title {
     font-size: 18px;
     text-align: center;
     font-family: 'Old Standard TT', 'BPG Arial', serif;
     text-overflow: ellipsis;
     white-space: nowrap;
+    overflow: hidden;
+}
+
+.card-title.pub{
+    font-size: 12px;
+    font-weight: bold;
     overflow: hidden;
 }
 
@@ -390,6 +401,10 @@ h1 {
 
 .card:hover>.card-image-wrapper>.card-image {
     background-size: 120%;
+    transition: .3s ease all;
+}
+.card:hover>.card-image-wrapper>.card-image.pub {
+    background-size: 50%;
     transition: .3s ease all;
 }
 
@@ -412,7 +427,6 @@ h1 {
 
 .card:hover>.card-image-wrapper>.card-image-overlay {
     background: #092246;
-    background: #0c3d18;
     opacity: .7;
     transition: .3s ease all;
 }

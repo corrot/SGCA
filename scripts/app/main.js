@@ -198,7 +198,7 @@ app.controller('myCtrl', [
     function ($scope, $timeout, $interval) {
         $scope.langs = langs;
         $scope.team = team;
-        $scope.publicationLimit = 3;
+        $scope.publicationLimit = 4;
         $scope.multimediaLimit = 4;
         $scope.externalLinks = externalLinks;
 
