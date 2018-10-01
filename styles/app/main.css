@@ -267,7 +267,7 @@ h1 {
 .footer-image-content>img {
     margin-right: 10px;
 }
-/* 
+/*
 .footer-image-content.right {
     float: right;
     margin-right: 40px;
@@ -460,7 +460,6 @@ h1 {
 #search {
     color: #fff;
     font-size: 18px;
-    float: left;
     background: transparent;
     border: none;
     margin: 0 5px;
