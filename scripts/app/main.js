@@ -200,6 +200,7 @@ app.controller('myCtrl', [
         $scope.team = team;
         $scope.publicationLimit = 4;
         $scope.multimediaLimit = 4;
+        $scope.coverageLimit = 4;
         $scope.externalLinks = externalLinks;
 
         $scope.slickConfig = {
@@ -213,6 +214,10 @@ app.controller('myCtrl', [
 
         $scope.loadPublications = function () {
             $scope.publicationLimit += 4;
+        }
+
+        $scope.loadCoverage = function () {
+            $scope.coverageLimit += 4;
         }
 
         $scope.conf = {

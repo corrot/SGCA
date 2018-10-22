@@ -1,7 +1,47 @@
 [
+{"id":22,"url":"images/resize/0.jpg","link":"images/resize/0.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":23,"url":"images/resize/1.jpg","link":"images/resize/1.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":24,"url":"images/resize/2.jpg","link":"images/resize/2.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":25,"url":"images/resize/3.jpg","link":"images/resize/3.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":26,"url":"images/resize/4.jpg","link":"images/resize/4.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":27,"url":"images/resize/5.jpg","link":"images/resize/5.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":28,"url":"images/resize/6.jpg","link":"images/resize/6.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":29,"url":"images/resize/7.jpg","link":"images/resize/7.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":30,"url":"images/resize/8.jpg","link":"images/resize/8.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":31,"url":"images/resize/9.jpg","link":"images/resize/9.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":32,"url":"images/resize/10.jpg","link":"images/resize/10.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":33,"url":"images/resize/11.jpg","link":"images/resize/11.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":34,"url":"images/resize/12.jpg","link":"images/resize/12.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":35,"url":"images/resize/13.jpg","link":"images/resize/13.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":36,"url":"images/resize/14.jpg","link":"images/resize/14.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":37,"url":"images/resize/15.jpg","link":"images/resize/15.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":38,"url":"images/resize/16.jpg","link":"images/resize/16.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":39,"url":"images/resize/17.jpg","link":"images/resize/17.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":40,"url":"images/resize/18.jpg","link":"images/resize/18.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":41,"url":"images/resize/19.jpg","link":"images/resize/19.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":42,"url":"images/resize/20.jpg","link":"images/resize/20.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":43,"url":"images/resize/21.jpg","link":"images/resize/21.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":44,"url":"images/resize/22.jpg","link":"images/resize/22.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":45,"url":"images/resize/23.jpg","link":"images/resize/23.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":46,"url":"images/resize/24.jpg","link":"images/resize/24.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":47,"url":"images/resize/25.jpg","link":"images/resize/25.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":48,"url":"images/resize/26.jpg","link":"images/resize/26.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":49,"url":"images/resize/27.jpg","link":"images/resize/27.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":50,"url":"images/resize/28.jpg","link":"images/resize/28.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":51,"url":"images/resize/29.jpg","link":"images/resize/29.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":52,"url":"images/resize/30.jpg","link":"images/resize/30.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":53,"url":"images/resize/31.jpg","link":"images/resize/31.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":54,"url":"images/resize/32.jpg","link":"images/resize/32.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":55,"url":"images/resize/33.jpg","link":"images/resize/33.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":56,"url":"images/resize/34.jpg","link":"images/resize/34.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":57,"url":"images/resize/35.jpg","link":"images/resize/35.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":58,"url":"images/resize/36.jpg","link":"images/resize/36.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":59,"url":"images/resize/37.jpg","link":"images/resize/37.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":60,"url":"images/resize/38.jpg","link":"images/resize/38.jpg","title":{"EN":"","GE":""},"date":""},
+{"id":61,"url":"images/resize/39.jpg","link":"images/resize/39.jpg","title":{"EN":"","GE":""},"date":""},
     {
         "id": 0,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "http://new.ipn.ge/ka/article/486302-sakartveloshi-konkurenciis-politikis-meore-saertashoriso-konperencia-gaimarteba",
         "desc": {
             "EN": "publication #1",
@@ -15,7 +55,7 @@
     },
     {
         "id": 1,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "https://commersant.ge/ge/post/saqartveloshi-konkurenciis-politikis-meore-saertashoriso-konferencia-gaimarteba",
         "desc": {
             "EN": "publication #1",
@@ -29,7 +69,7 @@
     },
     {
         "id": 2,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "http://new.ipn.ge/ka/article/505415-nodar-xaduri-kolegis-micvevit-chexetshi-imqopeba?ar=A",
         "desc": {
             "EN": "publication #1",
@@ -43,7 +83,7 @@
     },
     {
         "id": 3,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "http://new.ipn.ge/ka/article/501604-nodar-xaduris-xelmzgvanelobit-konkurenciis-speroshi-meore-saertashoriso-konperenciis-mosamzadebeli-sxdoma-gaimarta?ar=A",
         "desc": {
             "EN": "publication #1",
@@ -57,7 +97,7 @@
     },
     {
         "id": 4,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "https://www.facebook.com/www.bm.ge/videos/1586935438082640/UzpfSTE1NDU4NDg1Nzg5ODQzNTE6MjEyNTczMTA3NDMyOTQyOQ/",
         "desc": {
             "EN": "publication #1",
@@ -71,7 +111,7 @@
     },
     {
         "id": 5,
-        "url": "images/sample.jpg",
+        "url": "images/doc.png",
         "link": "http://events.gov.ge/event/meore-saerthashoriso-konpherentsia-konkurentsiis-politika-tendentsiebi-da-gamotsvevebi/",
         "desc": {
             "EN": "publication #1",
@@ -80,6 +120,230 @@
         "title": {
             "EN": "მეორე საერთაშორისო კონფერენცია – “კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“",
             "GE": "მეორე საერთაშორისო კონფერენცია – “კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“"
+        },
+        "date": ""
+    },
+    {
+        "id": 6,
+        "url": "images/doc.png",
+        "link": "https://news.ge/konkurenciis-politikis-shesaxeb/",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა",
+            "GE": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 7,
+        "url": "images/doc.png",
+        "link": "http://www.interpressnews.ge/ka/article/514052-konkurenciis-shesaxeb-kanonshi-shesatani-cvlilebebis-ganxilva-gaimarta",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "„კონკურენციის შესახებ“ კანონში შესატანი ცვლილებების განხილვა გაიმართა",
+            "GE": "„კონკურენციის შესახებ“ კანონში შესატანი ცვლილებების განხილვა გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 8,
+        "url": "images/doc.png",
+        "link": "http://www.interpressnews.ge/ka/article/514268-sakartvelos-konkurenciis-saagentosa-da-bulgaretis-saberznetis-ukrainis-konkurenciis-ucqebebs-shoris-memorandumebi-gapormda",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "საქართველოს კონკურენციის სააგენტოსა და ბულგარეთის, საბერძნეთის, უკრაინის კონკურენციის უწყებებს შორის მემორანდუმები გაფორმდა",
+            "GE": "საქართველოს კონკურენციის სააგენტოსა და ბულგარეთის, საბერძნეთის, უკრაინის კონკურენციის უწყებებს შორის მემორანდუმები გაფორმდა"
+        },
+        "date": ""
+    },
+    {
+        "id": 9,
+        "url": "images/doc.png",
+        "link": "http://ghn.ge/com/news/view/212065",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა",
+            "GE": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 10,
+        "url": "images/doc.png",
+        "link": "http://www.interpressnews.ge/ka/article/514216-konkurenciis-saagentosa-da-biznesombudsmenis-aparats-shoris-urtierttanamshromlobis-memorandumi-gapormda",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის სააგენტოსა და ბიზნესომბუდსმენის აპარატს შორის ურთიერთთანამშრომლობის მემორანდუმი გაფორმდა",
+            "GE": "კონკურენციის სააგენტოსა და ბიზნესომბუდსმენის აპარატს შორის ურთიერთთანამშრომლობის მემორანდუმი გაფორმდა"
+        },
+        "date": ""
+    },
+    {
+        "id": 11,
+        "url": "images/doc.png",
+        "link": "http://ghn.ge/com/news/view/212094",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "არის საკითხები, რომლებსაც ვიხილავთ კონკურენციის სააგენტოსთან ერთად და მემორანდუმი დაგვეხმარება, რომ კიდევ უფრო გავაღრმავოთ ჩვენი თანამშრომლობა - ირაკლი ლექვინაძე",
+            "GE": "არის საკითხები, რომლებსაც ვიხილავთ კონკურენციის სააგენტოსთან ერთად და მემორანდუმი დაგვეხმარება, რომ კიდევ უფრო გავაღრმავოთ ჩვენი თანამშრომლობა - ირაკლი ლექვინაძე"
+        },
+        "date": ""
+    },
+    {
+        "id": 12,
+        "url": "images/doc.png",
+        "link": "http://www.interpressnews.ge/ka/article/514105-sakartvelo-konkurenciis-temaze-saertashoriso-konperencias-maspinzlobs",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "საქართველო კონკურენციის თემაზე საერთაშორისო კონფერენციას მასპინძლობს",
+            "GE": "საქართველო კონკურენციის თემაზე საერთაშორისო კონფერენციას მასპინძლობს"
+        },
+        "date": ""
+    },
+    {
+        "id": 13,
+        "url": "images/doc.png",
+        "link": "https://news.ge/saqartvelos-konkurenciis-saagento/",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "საქართველოს კონკურენციის სააგენტოსა და საქართველოს ბიზნესომბუდსმენის აპარატს შორის ურთიერთთანამშრომლობის მემორანდუმი გაფორმდა",
+            "GE": "საქართველოს კონკურენციის სააგენტოსა და საქართველოს ბიზნესომბუდსმენის აპარატს შორის ურთიერთთანამშრომლობის მემორანდუმი გაფორმდა"
+        },
+        "date": ""
+    },
+    {
+        "id": 14,
+        "url": "images/doc.png",
+        "link": "http://medianews.ge/ge/konkurentsiis-politikis-shesakheb-meore-saertashoriso-konferentsia-gaimarta/50233",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა",
+            "GE": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 15,
+        "url": "images/doc.png",
+        "link": "http://gbc.ge/index.php?newsid=103657",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა",
+            "GE": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 16,
+        "url": "images/doc.png",
+        "link": "https://commersant.ge/ge/post/irakli-leqvinadze-memorandumi-dagvexmareba-rom-kidev-ufro-gavagrmavot-konkurenciis-saagentostan-tanamshromloba",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "ირაკლი ლექვინაძე: მემორანდუმი დაგვეხმარება, რომ კიდევ უფრო გავაღრმავოთ კონკურენციის სააგენტოსთან თანამშრომლობა",
+            "GE": "ირაკლი ლექვინაძე: მემორანდუმი დაგვეხმარება, რომ კიდევ უფრო გავაღრმავოთ კონკურენციის სააგენტოსთან თანამშრომლობა"
+        },
+        "date": ""
+    },
+    {
+        "id": 17,
+        "url": "images/doc.png",
+        "link": "https://commersant.ge/ge/post/saqartveloshi-konkurenciis-politikis-meore-saertashoriso-konferencia-gaimarteba",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "საქართველოში კონკურენციის პოლიტიკის მეორე საერთაშორისო კონფერენცია გაიმართება",
+            "GE": "საქართველოში კონკურენციის პოლიტიკის მეორე საერთაშორისო კონფერენცია გაიმართება"
+        },
+        "date": ""
+    },
+    {
+        "id": 18,
+        "url": "images/doc.png",
+        "link": "http://www.newposts.ge/?l=G&id=185008-%E1%83%97%E1%83%A1%E1%83%A3,%20%E1%83%99%E1%83%9D%E1%83%9C%E1%83%A4%E1%83%94%E1%83%A0%E1%83%94%E1%83%9C%E1%83%AA%E1%83%98%E1%83%90",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "თსუ-ში საერთაშორისო კონფერენცია „კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“ გაიხსნა",
+            "GE": "თსუ-ში საერთაშორისო კონფერენცია „კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“ გაიხსნა"
+        },
+        "date": ""
+    },
+    {
+        "id": 19,
+        "url": "images/doc.png",
+        "link": "http://www.newposts.ge/?l=G&id=184926-%E1%83%97%E1%83%A1%E1%83%A3,%20%E1%83%99%E1%83%9D%E1%83%9C%E1%83%A4%E1%83%94%E1%83%A0%E1%83%94%E1%83%9C%E1%83%AA%E1%83%98%E1%83%90",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "თსუ-ში ხვალ საერთაშორისო კონფერენცია „კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“ გაიხსნება",
+            "GE": "თსუ-ში ხვალ საერთაშორისო კონფერენცია „კონკურენციის პოლიტიკა: ტენდენციები და გამოწვევები“ გაიხსნება"
+        },
+        "date": ""
+    },
+    {
+        "id": 20,
+        "url": "images/doc.png",
+        "link": "http://www.ttimes.ge/archives/94142",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა",
+            "GE": "კონკურენციის პოლიტიკის შესახებ მეორე საერთაშორისო კონფერენცია გაიმართა"
+        },
+        "date": ""
+    },
+    {
+        "id": 21,
+        "url": "images/doc.png",
+        "link": "https://1tv.ge/news/irakli-leqvinadze-konkurenciis-saagentostan-gaformebuli-memorandumi-dagvekhmareba-kidev-ufro-gavaghrmaot-chveni-tanamshromloba/",
+        "desc": {
+            "EN": "publication #1",
+            "GE": "პუბლიკაცია #1"
+        },
+        "title": {
+            "EN": "ირაკლი ლექვინაძე - კონკურენციის სააგენტოსთან გაფორმებული მემორანდუმი დაგვეხმარება, კიდევ უფრო გავაღრმაოთ ჩვენი თანამშრომლობა",
+            "GE": "ირაკლი ლექვინაძე - კონკურენციის სააგენტოსთან გაფორმებული მემორანდუმი დაგვეხმარება, კიდევ უფრო გავაღრმაოთ ჩვენი თანამშრომლობა"
         },
         "date": ""
     }
